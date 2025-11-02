@@ -1,0 +1,6 @@
+---
+- name: 'Manage users'
+  ansible.builtin.include_tasks: manage_users.yml
+
+- name: 'Install'
+  ansible.builtin.include_tasks: install.yml
